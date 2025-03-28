@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8e1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ff7043; /* оранжево-красный */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .logo {
+    font-size: 34px; /* увеличенный размер */
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#search-query {
+    width: 50%;
+    padding: 12px;
+    font-size: 18px; /* увеличенный размер шрифта */
+    border: 2px solid #ff7043;
+    border-radius: 25px;
+    outline: none;
+}
+
+#search-query:focus {
+    border-color: #ff5722; /* ярко-оранжевый */
+}
+
+#search-button {
+    padding: 12px 25px;
+    background-color: #ff5722; /* ярко-оранжевый */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 18px; /* увеличенный размер шрифта */
+}
+
+#search-button:hover {
+    background-color: #e64a19; /* темно-оранжевый */
+}
+
+.results {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-item {
+    background-color: transparent;
+    padding: 12px 0; /* увеличен отступ */
+    margin: 15px 0; /* увеличен отступ */
+}
+
+.result-item a {
+    text-decoration: none;
+    color: #ff5722;
+    font-size: 22px; /* увеличенный размер шрифта */
+    font-weight: bold;
+}
+
+.result-item p {
+    color: #666;
+    font-size: 18px; /* увеличенный размер шрифта */
+}
