@@ -39,5 +39,5 @@ function displayResults(results) {
 
 function displayNoResults() {
     const resultsContainer = document.querySelector('.results');
-    resultsContainer.innerHTML = '<p>Результаты не найдены. ¯\_(ツ)_/¯</p>';
+    resultsContainer.innerHTML = '<p>Результаты не найдены. ;)</p>';
 }
